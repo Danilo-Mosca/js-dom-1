@@ -13,6 +13,7 @@ console.log(imageSelected);
 
 // Creo l'ascoltatore di eventi
 btnTurn.addEventListener("click", function() {
+    //Cambio l'immagine modificando l'attributo src
     imageSelected.src = "../img/yellow_lamp.png";
     // L'istruzione seguente capovolge l'immagine orizzontalmente
     // per permettere alle due immagini di essere visualizzate nello
