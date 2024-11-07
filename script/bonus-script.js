@@ -25,14 +25,19 @@ btnTurn.addEventListener("click", function () {
         // verrebbe visualizzata leggermente più a destra rispetto a quella
         // spenta
         imageSelected.style.transform = "scaleX(-1)";
+        //Cambio l'alt
+        imageSelected.alt = "Lampadina accesa";
         //Modifico il testo del pulsante
         btnTurn.innerHTML = "Spegni";
         // Modifico il colore di sfondo del pulsante quando la lampadina
         // è accesa aggiungendo la classe "btn-style-img-yellow"
         btnTurn.classList.toggle('btn-style-img-yellow');
+
     }
     else {
         imageSelected.src = "img/white_lamp.png";
+        //Cambio l'alt
+        imageSelected.alt = "Lampadina spenta";
         //Ruoto l'immagine
         imageSelected.style.transform = "scaleX(+1)";
         //Modifico il testo del pulsante
