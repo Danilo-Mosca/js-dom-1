@@ -48,9 +48,15 @@ body {
 .btn-style:hover {
     background-color: #679620;
 }
+
 /* Classe pulsante che modifica solo il colore di sfondo del pulsante
 quando la lampadina è accesa */
 .btn-style-img-yellow {
     background-color: #FED000;
-    
+    border: 2px solid #f96b04;
+}
+
+/* Hover col mouse per la lampadina accesa */
+.btn-style-img-yellow:hover {
+    background-color: #c16523;
 }
