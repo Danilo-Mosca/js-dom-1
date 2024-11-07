@@ -26,17 +26,20 @@ body {
     align-items: center;
 }
 .img {
-    width: 300px;
+    width: auto;
 }
 
 .btn-style {
     margin: 20px;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 10px;
-    color: #f1380a;
+    color: black;
     background-color: #9AE22D;
     border: 2px solid #679620; 
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
+}
+.btn-style:hover {
+    background-color: #679620;
 }
