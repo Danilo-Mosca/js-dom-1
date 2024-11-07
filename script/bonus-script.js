@@ -27,6 +27,9 @@ btnTurn.addEventListener("click", function () {
         imageSelected.style.transform = "scaleX(-1)";
         //Modifico il testo del pulsante
         btnTurn.innerHTML = "Spegni";
+        // Modifico il colore di sfondo del pulsante quando la lampadina
+        // è accesa aggiungendo la classe "btn-style-img-yellow"
+        btnTurn.classList.toggle('btn-style-img-yellow');
     }
     else {
         imageSelected.src = "img/white_lamp.png";
@@ -34,6 +37,10 @@ btnTurn.addEventListener("click", function () {
         imageSelected.style.transform = "scaleX(+1)";
         //Modifico il testo del pulsante
         btnTurn.innerHTML = "Accendi";
+        // Riporto il colore di sfondo del pulsante originale 
+        // (rimuovendo la classe "btn-style-img-yellow")
+        // quando clicco sul pulsante per spegnere la lampadina
+        btnTurn.classList.toggle('btn-style-img-yellow');
     }
 
 });
