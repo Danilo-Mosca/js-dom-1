@@ -1,0 +1,42 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classe di debug */
+.debug {
+    border: 1px solid red;
+}
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+#wrapper {
+    max-width: 1200px;
+    text-align: center;
+    margin: 50px auto;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    width: 300px;
+}
+
+.btn-style {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f1380a;
+    background-color: #9AE22D;
+    border: 2px solid #679620; 
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
